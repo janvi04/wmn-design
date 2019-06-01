@@ -1,0 +1,114 @@
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" integrity="sha384-XdYbMnZ/QjLh6iI4ogqCTaIjrFk87ip+ekIjefZch0Y+PvJ8CDYtEs1ipDmPorQ+" crossorigin="anonymous">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"/>
+
+
+<html>
+<head>
+  <title>Welcome</title>
+<style type="text/css">
+
+.image
+{
+  width: 268px;
+  height: 188px;
+}
+  nav ul {
+  text-align: right;
+  position: fixed;
+  width: 100%;
+  background-color: #e0ebe8;
+}
+
+nav ul li {
+  display: inline-block;
+  margin: 30px;
+  margin-bottom: 10px;
+  margin-top: 25px;
+}
+
+nav ul li a {
+  color: #008080;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  color: green;
+}
+.intro {
+  top: 0;
+  background: #5CB3FF;
+  min-height: 20vh;
+  padding-top: 10vh
+
+
+}
+#rect {
+  animation-name: rainbow;
+  animation-duration:6s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes rainbow {
+  0% {
+    background-color: #56A5EC;
+    top: 0px;
+    left: 0px;
+  }
+  50% {
+    background-color: #9172EC;
+    top: 0px;
+    left: 25px;
+    
+  }
+  100% {
+    background-color: #A74AC7;
+    top: 0px;
+    left:-25px;
+  }
+}
+.content
+{
+  background-color: #ADDFFF;
+}
+
+
+</style>
+
+
+
+</head>
+
+
+
+<body>
+<nav>
+  
+  
+  <ul id='navbar'>
+    
+    <li><a href="#home">Home</a></li>
+    <li><a href="#register">Sign In/Sign Up</a></li>
+  </ul>
+</nav>
+<div id="home" class="intro">
+<marquee direction="left" scrollamount="10">
+
+<h1 text align="center">Welcome to medicine reminder</h1>
+</marquee>
+</div>
+<div id="rect" class="content">
+  
+<div>
+
+  <p>Now never miss a single dose of your medicines</p>
+
+</div>
+
+<div>
+  <p>We will remind you to take medicines on time </p>
+  <p>by either calling you or texting you</p>
+
+</div>
+</div>
+</body>
+</html>
