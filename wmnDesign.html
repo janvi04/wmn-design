@@ -7,6 +7,13 @@
   <title>Welcome</title>
 <style type="text/css">
 
+h2{
+  font-size: 30px;
+  text-shadow: 0.5;
+  color: #64b5f6;
+}
+
+
 .image
 {
   width: 268px;
@@ -32,7 +39,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-  color: green;
+  color: #9c27b0;
 }
 .intro {
   top: 0;
@@ -44,24 +51,24 @@ nav ul li a:hover {
 }
 #rect {
   animation-name: rainbow;
-  animation-duration:6s;
+  animation-duration:5s;
   animation-iteration-count: infinite;
 }
 
 @keyframes rainbow {
   0% {
-    background-color: #56A5EC;
+    background-color: #42a5f5;
     top: 0px;
     left: 0px;
   }
   50% {
-    background-color: #9172EC;
+    background-color: #64b5f6;
     top: 0px;
     left: 25px;
     
   }
   100% {
-    background-color: #A74AC7;
+    background-color: #90caf9;
     top: 0px;
     left:-25px;
   }
@@ -69,6 +76,9 @@ nav ul li a:hover {
 .content
 {
   background-color: #ADDFFF;
+  font-size: 20px;
+  height: 150px;
+  width:100%;
 }
 
 
@@ -87,28 +97,55 @@ nav ul li a:hover {
   <ul id='navbar'>
     
     <li><a href="#home">Home</a></li>
+    <li><a href="#about">About</a></li>
+    <li><a href="#contact">Contact</a></li>
     <li><a href="#register">Sign In/Sign Up</a></li>
   </ul>
 </nav>
 <div id="home" class="intro">
-<marquee direction="left" scrollamount="10">
+<marquee direction="left" scrollamount="25">
 
 <h1 text align="center">Welcome to medicine reminder</h1>
 </marquee>
 </div>
-<div id="rect" class="content">
   
-<div>
+<div class="content" align="left" id="rect" >
+<!--   <div align="left"> -->
+
+  <marquee direction="left" scrollamount="25">
 
   <p>Now never miss a single dose of your medicines</p>
-
-</div>
-
-<div>
   <p>We will remind you to take medicines on time </p>
   <p>by either calling you or texting you</p>
+</marquee>
+</div>
+
 
 </div>
+
+<br><br>
+<div id="#about" align="left">
+  <h2 align="left" >About</h2>
+
+  <p>Register on MedRem by entering your details.</p>
+  <p>Enter the medicine name and time to take it.</p>
+  <p>We will remind you when to take which medicine.</p>
+
 </div>
+<br>
+<div id="#contact">
+ <h2 align="left">Contact</h2>
+
+  
+  <a href="janvit397@gmail.com">Mail us</a> 
+  <br>
+  <a href="tel:8827247707">Call us</a>
+
+
+
+
+
+</div>
+
 </body>
 </html>
